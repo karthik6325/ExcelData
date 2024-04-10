@@ -1,0 +1,91 @@
+.homepage {
+    width: 100%;
+    height: 100%;
+    background: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: center;
+}
+
+.format {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 2rem;
+    border-radius: 8px;
+}
+
+.postButton {
+    background-color: #0b8600;
+    color: white;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    display: flex;
+    justify-content: center;
+}
+
+.button-container {
+    width:70%;
+    display: flex;
+    align-items: center;
+    margin-left: 8%;
+    position: relative;
+    flex-direction: column;
+    border: 2px solid black; 
+    padding: 100px; 
+    border-radius: 10px; 
+}
+
+.fileName {
+    margin-top: 10px; 
+    font-size: 14px; 
+}
+
+.upload-button {
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 50px; 
+}
+
+.candidate_text{
+    margin-left: 6%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+.cloud-icon {
+    font-size: 100px; 
+}
+
+.add-from-excel {
+    background-color: rgb(133, 133, 12);
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+.add-from-excel p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.thank-you-text {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.green-text {
+    color: rgb(0, 182, 0); 
+    font-weight: bold;
+}
+.green-tick {
+    color: green;
+}
+
