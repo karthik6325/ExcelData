@@ -9,7 +9,6 @@ exports.registerCandidates = async (candidates) => {
 
                 if (candidateRow.every(cell => cell === null || cell === '')) {
                     return callback(); 
-                    
                 }
 
                 const existingCandidate = await Candidate.findOne({ email });
